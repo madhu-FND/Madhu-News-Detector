@@ -3,19 +3,7 @@
 
 const SUPABASE_URL = 'https://ryrjqxryqqjiuoizeidr.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_V0rreGh-RAlD5BwQO6EHOA_SYwDJST4';
-const GEMINI_KEY = 'AIzaSyB9Q3Xx1IQLxZWH9itgLr9ZV1SzIEkTN74' \
-  -X POST \
-  -d '{
-    "contents": [
-      {
-        "parts": [
-          {
-            "text": "Explain how AI works in a few words"
-          }
-        ]
-      }
-    ]
-  }'';
+const GEMINI_KEY = 'AIzaSyB9Q3Xx1IQLxZWH9itgLr9ZV1SzIEkTN74';
 const ADMIN_EMAIL = 'madhu5269281@gmail.com';
 
 const { createClient } = supabase;
