@@ -268,3 +268,8 @@ CREATE POLICY "Auth insert alerts" ON alerts FOR INSERT WITH CHECK (auth.role() 
 3. `app.js` – All JavaScript logic
 
 That's it! Only 3 files needed. 🎉
+
+--
+<html>
+<date == 12/05/2026>
+<p> location== gangavaram</p>
